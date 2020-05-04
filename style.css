@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.score {
+    margin: 2rem;
+    height: 35px;
+    width: 150px;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    border-radius: 3px;
+    font-size: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+canvas {
+    outline: none;
+}
